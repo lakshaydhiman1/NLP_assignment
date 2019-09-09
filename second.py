@@ -39,7 +39,10 @@ for i in range(len(p)):
     e.append(p[i][0])
     f.append(p[i][1]**0.5)
 plt.scatter(e,f)
-plt.show()    
+plt.xlabel("number of meaning")
+plt.ylabel("length of token")
+plt.show()   
+
     
        
 
